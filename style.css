@@ -3,3 +3,10 @@ ul {
   display: flex;
   justify-content: flex-end;
 }
+
+li {
+  margin-top: 25px;
+  margin-right: 55px;
+  margin-left: 55px;
+  margin-bottom: 15px;
+}
