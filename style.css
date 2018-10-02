@@ -27,4 +27,7 @@ nav ul li a:hover {
 
 main {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  background: #e0ebe8;
 }
