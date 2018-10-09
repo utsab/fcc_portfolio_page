@@ -3,14 +3,14 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-ul {
+nav ul {
   list-style: none;
   display: flex;
   justify-content: flex-end;
   margin: 0px 0px 0px 0px;
 }
 
-li {
+nav ul li {
   margin-top: 25px;
   margin-right: 55px;
   margin-left: 55px;
