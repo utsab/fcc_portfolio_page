@@ -63,8 +63,19 @@ main h2 {
 
 #portfolio ul li {
   margin: 20px 0px;
+  list-style: none;
+}
+
+#portfolio li div {
+  margin-top: -5px;
+  text-align: center;
+  padding: 5px;
+  border: 2px solid lightblue;
+  color: #008080; 
 }
 
 #portfolio img {
   width: 250px;
+  height: 150px;
+  border: 2px solid lightblue;
 }
