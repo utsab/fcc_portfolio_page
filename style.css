@@ -49,3 +49,20 @@ main h2 {
   font-size: 14px;
   font-weight: normal;
 }
+
+
+/* portfolio section */
+
+#portfolio ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#portfolio ul li {
+  margin: 20px 0px;
+}
+
+#portfolio img {
+  width: 250px;
+}
