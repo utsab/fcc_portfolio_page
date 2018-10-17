@@ -3,6 +3,11 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+* {
+  margin: 0px;
+  padding; 0px;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -54,24 +59,26 @@ main h2 {
 /* portfolio section */
 
 #portfolio ul {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  list-style: none;
+  padding-left: 0;
+  justify-content: space-around;
 }
 
 #portfolio ul li {
   margin: 20px 0px;
-  list-style: none;
 }
 
 #portfolio li div {
   margin-top: -5px;
   text-align: center;
-  padding: 5px;
+  padding: 8px 5px;
+  font-size: 12px;
   border: 2px solid lightblue;
-  color: #008080; 
+  color: #008080;
 }
 
 #portfolio img {
